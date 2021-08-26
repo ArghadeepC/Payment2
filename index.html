@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Create Mobile Payment page Design</title>
+    <link rel="stylesheet" href="style2.css">
+    <script type="text/javascript">
+    </script>
+    <script src="script.js"></script>
+  </head>
+  <body >
+   <div class="container">
+     <div class="top-box">
+       <p><span><img class="left" src="cc.png" alt=""></span> PAYMENT GATEWAY <span><img class="right" src="cc.png" alt=""></span></p>
+     </div>
+     <div class="miidle-box">
+       <button type="button" class="payment-option">Pay with Net Banking</button>
+       <button type="button" class="payment-option">Pay with UPI</button>
+       <form name="myform" action="index.html" onsubmit="return valform()">
+       <div class="card-details">
+         <p>Pay Using Debit or Credit Card</p><br>
+         <div class="card-no">
+           <label>Card Number:</label><br><br>
+         <input type="number" name="ucard" class="card-number1" placeholder="xxxx-xxxx-xxxx-xxxx">
+         
+       </div>
+       <div class="card-date">
+         <label>Expiry Date:</label>:</label><br><br>
+       <input type="number" name="udate" class="card-date1" placeholder="mm/yy">
+       
+     </div>
+     <div class="cvv">
+       <label>CVV:</label><br><br>
+     <input type="password" name="upass" class="CVV1" placeholder="xxx">
+     
+   </div>
+     <div class="card-holder">
+       <label>Card Holder Name:</label><br><br>
+       <input type="text" name="uname" id="u1" class="card-holder1" placeholder="Full Name">
+     
+   </div>
+     <input type="submit" class=p-bt>
+     </div>
+   </form>
+   </div>
+  </body>
+</html>

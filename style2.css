@@ -1,0 +1,117 @@
+*
+{
+  margin:0;
+  padding: 0;
+}
+.container
+{
+  height:600px;
+  width:800px;
+  background-image: linear-gradient(#B7C2F2,#B7F2C4);
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+.top-box
+{
+  height:150px;
+  background-color: #D8D9F3;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+
+}
+.top-box p
+{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 50px;
+}
+.middle-box
+{
+  background-color: #D45565;
+}
+.left
+{
+  width:50px;
+  position: absolute;
+  left:50px;
+}
+.right
+{
+  width:50px;
+  position: absolute;
+  right:50px;
+}
+.payment-option
+{
+  color: #5457B2;
+  margin:5px 30px;
+  height: 30px;
+  width: 290px;
+  font-size: 20px;
+  background-image: linear-gradient(white,#B7F2C4);
+  cursor: pointer;
+}
+.card-details
+{
+  background: white;
+  color: red;
+  margin: 10px 30px;
+  padding: 10px;
+}
+.card-details p
+{
+  font-size:20px;
+  line-height: 20px;
+}
+.card-details label
+{
+  font-size: 20px;
+  line-height: 20px;
+}
+.card-no
+{
+  margin-top: 10px;
+}
+.card-date
+{
+margin-top:10px;
+  display: inline-block;
+}
+.cvv
+{
+margin-top:10px;
+  display: inline-block;
+  position: absolute;
+  right: 80px;
+}
+.card-holder
+{
+margin-top:10px;
+
+}
+.card-number1
+{
+  width: 300px;
+
+}
+.card-holder1
+{
+  width:300px;
+}
+.card-date1,.CVV1
+{
+  width:100px;
+}
+.p-bt
+{
+  width: 270px;
+  color:black;
+  margin-top: 20px;
+  height: 30px;
+  background-image: linear-gradient(#989AE0,white);
+  border:none;
+  text-align: center;
+  cursor:pointer;
+}
